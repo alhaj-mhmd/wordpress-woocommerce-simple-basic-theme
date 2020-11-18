@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes() ?>>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php echo bloginfo( "charset" ) ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Basic</title>
+    <title><?php echo bloginfo( "title" ) ?></title>
 </head>
 
 <body>
