@@ -1,0 +1,8 @@
+wpadmin
+username: admin
+password: 1234
+
+Database:
+dbname: wp_woo_simple
+dbuser: root
+dbpass: 
