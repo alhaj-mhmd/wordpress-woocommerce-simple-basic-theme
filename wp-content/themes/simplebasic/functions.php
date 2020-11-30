@@ -16,7 +16,6 @@ add_action("wp_enqueue_scripts", "simplle_basic_load_scripts");
 
 
 //**  regiset nav menu
-
 function simle_basic_nav_config(){
     register_nav_menus(array(
         // menu/location id / menu name 
@@ -25,4 +24,6 @@ function simle_basic_nav_config(){
     ));
 } 
 add_action("after_setup_theme","simle_basic_nav_config");
+
+
 
