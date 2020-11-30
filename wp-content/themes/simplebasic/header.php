@@ -12,11 +12,8 @@
     <header>
         <section class="site-logo">Logo</section>
         <section class="site-menus">
-            <nav>
-                <a href="#">Home</a>
-                <a href="">Abour</a>
-                <a href="">Products</a>
-                <a href="">Contact Us</a>
-            </nav>
+            <?php wp_nav_menu( array(
+                "theme_location"=>"theme_primary_menu"
+            ) ) ?>
         </section>
     </header>
